@@ -7,7 +7,7 @@ This is a small guide stating how you can create a DOI link to your software rep
 1. Login to [Zenodo](https://zenodo.org/) using your GitHub account.
 2. Go to Github under your account information
 
-  ![Go to Github under your account](zenodo1.png)
+  ![](zenodo1.png)
 
 3. Flic the switch to "On" for the chosen repository.
   1. ![Flic the switch to "On"](https://github.com/AAU-OpenFOAM/documentation/blob/main/zenodo%20guide/img/zenodo2.png)
