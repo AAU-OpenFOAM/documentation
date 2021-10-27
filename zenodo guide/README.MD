@@ -7,15 +7,15 @@ This is a small guide stating how you can create a DOI link to your software rep
 1. Login to [Zenodo](https://zenodo.org/) using your GitHub account.
 1. Go to Github under your account information
 
-  ![Alt text](zenodo1.png)
+  ![Account -> Github](zenodo1.png)
 
 3. Flic the switch to "On" for the chosen repository.
 
-  ![](zenodo2.png)
+  ![Switch=On](zenodo2.png)
 
 4. Click on the chosen repository and press "Create a release"
 
-  ![](zenodo3.png)
+  ![Create release](zenodo3.png)
 
 5. Choose a tagged release (or create a new) and give the release a name and a description. Press publish release.
 6. Go back to [Zenodo](https://zenodo.org/) and click on your chosen release.
