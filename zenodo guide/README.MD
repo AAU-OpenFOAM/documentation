@@ -9,10 +9,14 @@ This is a small guide stating how you can create a DOI link to your software rep
 
   ![](zenodo1.png)
 
-1. Flic the switch to "On" for the chosen repository.
-  . ![](zenodo2.png)
+3. Flic the switch to "On" for the chosen repository.
+
+  ![](zenodo2.png)
+
 4. Click on the chosen repository and press "Create a release"
-  1. ![](zenodo3.png)
+
+  ![](zenodo3.png)
+
 5. Choose a tagged release (or create a new) and give the release a name and a description. Press publish release.
 6. Go back to [Zenodo](https://zenodo.org/) and click on your chosen release.
 7. Press the DOI link to create and publish a description on Zenodo.
