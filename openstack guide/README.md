@@ -52,13 +52,9 @@ ssh aauStrato
 ## 3. Sourcing OpenFOAM and starting headless ParaView server
 a) If you started your instance based on the OpenFOAM image in step 1, you have to source your preferred OpenFOAM version. You will be greeted with a message showing which versions of OpenFOAM are available. To source OpenFOAM v2106 simply type ``of2106``.
 
-b) To start the headless ParaView server simply type ``pvserver``. The ParaView server is now listening for connections. In your local ParaView client you can now connect using "File" --> "Connect..." and add a new server with the following information:
-
-![](paraview-connect.png)
-
-Note: The connection may take a few seconds to establish.
+b) To start the headless ParaView server simply type ``pvserver``. The ParaView server is now listening for connections.
 ## 4. Transferring files to/from instance
-Files to/from the OpenStack instance can transferred by a sftp client. I suggest installing [FileZilla](https://filezilla-project.org/), which is free and available on Windows/macOS and most Linux systems. You then connect via sftp using:
+Files to/from the OpenStack instance can transferred by a sftp client. I suggest installing [FileZilla](https://filezilla-project.org/), which is free and available on Windows/macOS and most Linux systems. You then connect using:
 
 - Protocol: sftp
 - Host: ``<IP-OF-INSTANCE>``
@@ -66,6 +62,9 @@ Files to/from the OpenStack instance can transferred by a sftp client. I suggest
 - User: ubuntu
 - Key file: ``<PATH-TO-KEY-FILE>``
 
+## 5. Connecting to the ParaView server running on the instance
+If you started the ParaView server in step 3, you can connect to it using your local ParaView client by "File" --> "Connect..." and then add a new server with the following information:
 
-## 5. Connecting to ParaView running on the instance
-If you use the pre-installed OpenFOAM image, it already comes with a headless Paraview version installed and running. To connect you will need the instance IP adress:
+![](paraview-connect.png)
+
+Note: The connection may take a few seconds to establish.
